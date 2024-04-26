@@ -1,4 +1,4 @@
-import { INITIAL_STATE } from "../contactsSlice/contactsSlice";
+import { INITIAL_STATE } from "./contactsSlice";
 import { createSlice } from "@reduxjs/toolkit";
 
 const filtersSlice = createSlice({
