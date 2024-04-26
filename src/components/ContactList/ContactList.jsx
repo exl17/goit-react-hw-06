@@ -3,7 +3,7 @@ import Contact from "../Contact/Contact";
 import { useSelector } from "react-redux";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
-// import { deleteContact } from "../../redux/contactsSlice/contactsSlice";
+
 
 const ContactList = () => {
   const contacts = useSelector((state) => state.contacts.items);

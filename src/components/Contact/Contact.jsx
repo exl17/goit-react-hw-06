@@ -19,6 +19,8 @@ const Contacts = ({ contact }) => {
         Delete
       </button>
     </div>
+
+        
   );
 };
 
